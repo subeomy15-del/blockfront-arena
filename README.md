@@ -36,3 +36,17 @@ Skins multiply end-of-run coin rewards from 1× for Neon Scout to 100× for Omeg
 Run logic checks with `node tests/game.cjs`.
 
 Premium skins: Inferno Overlord (25,000 coins, 15×), Storm Titan (50,000, 20×), Nebula Monarch (100,000, 30×), Singularity Phantom (250,000, 45×), Eternal Seraph (500,000, 65×), Omega Sovereign (1,000,000, 100×). Each has a unique projectile color.
+
+## World progression
+
+Use Worlds in the lobby to select a destination for your next solo or local co-op run.
+
+| World | Lifetime coins required | Enemy health | Enemy movement speed |
+| --- | ---: | ---: | ---: |
+| Neon Foundry | 0 | Normal | Normal |
+| Glacier Station | 100,000 | +8% | Normal |
+| Ember Forge | 250,000 | +16% | +3% |
+| Overgrown Reactor | 500,000 | +24% | +5% |
+| Astral Vault | 1,000,000 | +32% | +8% |
+
+Coins earned at the end of runs count toward permanent world unlocks. Unlocks are free; purchases do not reduce progress. Existing saves begin lifetime tracking from the current coin balance because older earnings were not recorded. New worlds change the default scenery and boss theme; visual settings can still override the scenery. Player stats, weapon power, enemy damage, and coin rates receive no world bonuses. Saved runs keep their original world, including old saves which default to Neon Foundry. Each world tracks its best cleared wave. Bosses show a visual warning before special attacks.
